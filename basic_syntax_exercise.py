@@ -71,22 +71,27 @@ sum = x + y
 print("The sum of 'x' and 'y' is: " + sum)
 
 # Subtraction: print the difference between 'x' and 'y'.
-print("The difference between 'x' and 'y' is: ")
+difference = x - y
+print("The difference between 'x' and 'y' is: " + difference)
 
 # Multiplication: print the product of 'x' and 'y'.
-print("The product of 'x' and 'y' is: ")
+product = x * y 
+print("The product of 'x' and 'y' is: " + product )
 
 # Division: print the answer when you divide 'x' by 'y'.
-print("The division of 'x' by 'y' is:")
+answer = x / y
+print("The division of 'x' by 'y' is:" + answer)
 
 # Modulus (remainder of the division): print the remainder after dividing 'x' by 'y'.
-print("The modulus of 'x' and 'y' is: ")
+remainder = x % y
+print("The modulus of 'x' and 'y' is: " + remainder)
 
 
 # 4. Indentation: 
     # Python uses indentation to indicate the beginning and end of code blocks.
 # Complete the for loop below to print numbers 0 to 5    
-
+for i in range(0,6):    
+    print(i)
 
 # for number in range(6):
 # print()  # This line is part of the for loop and it must be indented.
