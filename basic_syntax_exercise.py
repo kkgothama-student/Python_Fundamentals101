@@ -3,7 +3,7 @@
 # 1. Variables: You can store values in variables.
 
 # On the next line store the number '10' in the variable 'x'.
-
+x = 10
 
 # On the next line, store the number '20.5' in the variable 'y'.
 
